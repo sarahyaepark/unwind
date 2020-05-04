@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2362CC5CDBA7B154EE3895 /* Pods_unwind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7ED301696F9657A3D2580 /* Pods_unwind.framework */; };
+		BA1D748F245C14930079B504 /* loginbg.mov in Resources */ = {isa = PBXBuildFile; fileRef = BA1D748E245C14930079B504 /* loginbg.mov */; };
 		BA205C9A245A6D99009FD135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA205C99245A6D99009FD135 /* AppDelegate.swift */; };
 		BA205C9C245A6D99009FD135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA205C9B245A6D99009FD135 /* SceneDelegate.swift */; };
 		BA205C9E245A6D99009FD135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA205C9D245A6D99009FD135 /* ViewController.swift */; };
@@ -14,9 +16,26 @@
 		BA205CA4245A6D99009FD135 /* unwind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA205CA2245A6D99009FD135 /* unwind.xcdatamodeld */; };
 		BA205CA6245A6D9B009FD135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA205CA5245A6D9B009FD135 /* Assets.xcassets */; };
 		BA205CA9245A6D9B009FD135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA205CA7245A6D9B009FD135 /* LaunchScreen.storyboard */; };
+		BA205CB9245A7FE5009FD135 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA205CB8245A7FE5009FD135 /* SignUpViewController.swift */; };
+		BA205CBB245A7FFB009FD135 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA205CBA245A7FFB009FD135 /* LoginViewController.swift */; };
+		BA205CBD245A800B009FD135 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA205CBC245A800B009FD135 /* HomeViewController.swift */; };
+		BA44D1BE245D26B900DCF225 /* goodnightbg.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BA44D1BD245D26B900DCF225 /* goodnightbg.mp4 */; };
+		BA44D1C0245D26D600DCF225 /* GoodnightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44D1BF245D26D600DCF225 /* GoodnightViewController.swift */; };
+		BA4A62C4245BC8BE00E91868 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A62C3245BC8BE00E91868 /* NewUserViewController.swift */; };
+		BA4A62C6245BDF5300E91868 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A62C5245BDF5300E91868 /* GoalsViewController.swift */; };
+		BA62F26B245B38D500B803D5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62F26A245B38D500B803D5 /* Utilities.swift */; };
+		BA62F26D245B43EE00B803D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA62F26C245B43EE00B803D5 /* GoogleService-Info.plist */; };
+		BA7476FC245B53A3005AB7CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7476FB245B53A3005AB7CE /* Constants.swift */; };
+		BAA408CA245E098800C0AF8F /* OverTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA408C9245E098800C0AF8F /* OverTimeViewController.swift */; };
+		BAA408CF245E203600C0AF8F /* lightCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA408CD245E203600C0AF8F /* lightCircle.png */; };
+		BAA408D0245E203600C0AF8F /* yellowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA408CE245E203600C0AF8F /* yellowCircle.png */; };
+		BAFBD7F7245F97FF00B9110C /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBD7F6245F97FE00B9110C /* DateCell.swift */; };
+		BAFBD7F9245FB4E200B9110C /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBD7F8245FB4E100B9110C /* DateHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75D7ED301696F9657A3D2580 /* Pods_unwind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unwind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1D748E245C14930079B504 /* loginbg.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = loginbg.mov; sourceTree = "<group>"; };
 		BA205C96245A6D99009FD135 /* unwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA205C99245A6D99009FD135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA205C9B245A6D99009FD135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +45,23 @@
 		BA205CA5245A6D9B009FD135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA205CA8245A6D9B009FD135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA205CAA245A6D9B009FD135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA205CB8245A7FE5009FD135 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BA205CBA245A7FFB009FD135 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA205CBC245A800B009FD135 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BA44D1BD245D26B900DCF225 /* goodnightbg.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = goodnightbg.mp4; sourceTree = "<group>"; };
+		BA44D1BF245D26D600DCF225 /* GoodnightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodnightViewController.swift; sourceTree = "<group>"; };
+		BA4A62C3245BC8BE00E91868 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		BA4A62C5245BDF5300E91868 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		BA62F26A245B38D500B803D5 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BA62F26C245B43EE00B803D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA7476FB245B53A3005AB7CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BAA408C9245E098800C0AF8F /* OverTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverTimeViewController.swift; sourceTree = "<group>"; };
+		BAA408CD245E203600C0AF8F /* lightCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightCircle.png; sourceTree = "<group>"; };
+		BAA408CE245E203600C0AF8F /* yellowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowCircle.png; sourceTree = "<group>"; };
+		BAFBD7F6245F97FE00B9110C /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		BAFBD7F8245FB4E100B9110C /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
+		BDDEC0DC5096DC9DAA2120DF /* Pods-unwind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwind.release.xcconfig"; path = "Target Support Files/Pods-unwind/Pods-unwind.release.xcconfig"; sourceTree = "<group>"; };
+		DFC4FEF956199E1B677C26B8 /* Pods-unwind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unwind.debug.xcconfig"; path = "Target Support Files/Pods-unwind/Pods-unwind.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2362CC5CDBA7B154EE3895 /* Pods_unwind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54CE17E0B6015E608D2B729F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D7ED301696F9657A3D2580 /* Pods_unwind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA205C8D245A6D99009FD135 = {
 			isa = PBXGroup;
 			children = (
 				BA205C98245A6D99009FD135 /* unwind */,
-				BA205C97245A6D99009FD135 /* Products */,
+				D6EDC43640C571C5729C7AAD /* Pods */,
+				54CE17E0B6015E608D2B729F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +99,7 @@
 				BA205C96245A6D99009FD135 /* unwind.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		BA205C98245A6D99009FD135 /* unwind */ = {
@@ -60,14 +107,64 @@
 			children = (
 				BA205C99245A6D99009FD135 /* AppDelegate.swift */,
 				BA205C9B245A6D99009FD135 /* SceneDelegate.swift */,
-				BA205C9D245A6D99009FD135 /* ViewController.swift */,
+				BA62F269245B38B100B803D5 /* Helpers */,
+				BA7476FD245B6A1D005AB7CE /* Media */,
+				BA205CBE245A8017009FD135 /* View Controllers */,
 				BA205C9F245A6D99009FD135 /* Main.storyboard */,
 				BA205CA5245A6D9B009FD135 /* Assets.xcassets */,
+				BA62F26C245B43EE00B803D5 /* GoogleService-Info.plist */,
 				BA205CA7245A6D9B009FD135 /* LaunchScreen.storyboard */,
 				BA205CAA245A6D9B009FD135 /* Info.plist */,
+				BA205C97245A6D99009FD135 /* Products */,
 				BA205CA2245A6D99009FD135 /* unwind.xcdatamodeld */,
 			);
 			path = unwind;
+			sourceTree = "<group>";
+		};
+		BA205CBE245A8017009FD135 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA205CB8245A7FE5009FD135 /* SignUpViewController.swift */,
+				BA205C9D245A6D99009FD135 /* ViewController.swift */,
+				BA205CBA245A7FFB009FD135 /* LoginViewController.swift */,
+				BA205CBC245A800B009FD135 /* HomeViewController.swift */,
+				BA4A62C3245BC8BE00E91868 /* NewUserViewController.swift */,
+				BA4A62C5245BDF5300E91868 /* GoalsViewController.swift */,
+				BA44D1BF245D26D600DCF225 /* GoodnightViewController.swift */,
+				BAA408C9245E098800C0AF8F /* OverTimeViewController.swift */,
+				BAFBD7F6245F97FE00B9110C /* DateCell.swift */,
+				BAFBD7F8245FB4E100B9110C /* DateHeader.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BA62F269245B38B100B803D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA62F26A245B38D500B803D5 /* Utilities.swift */,
+				BA7476FB245B53A3005AB7CE /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA7476FD245B6A1D005AB7CE /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				BAA408CD245E203600C0AF8F /* lightCircle.png */,
+				BAA408CE245E203600C0AF8F /* yellowCircle.png */,
+				BA44D1BD245D26B900DCF225 /* goodnightbg.mp4 */,
+				BA1D748E245C14930079B504 /* loginbg.mov */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		D6EDC43640C571C5729C7AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFC4FEF956199E1B677C26B8 /* Pods-unwind.debug.xcconfig */,
+				BDDEC0DC5096DC9DAA2120DF /* Pods-unwind.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA205CAD245A6D9B009FD135 /* Build configuration list for PBXNativeTarget "unwind" */;
 			buildPhases = (
+				FE274290D20C06E004CCFF4C /* [CP] Check Pods Manifest.lock */,
 				BA205C92245A6D99009FD135 /* Sources */,
 				BA205C93245A6D99009FD135 /* Frameworks */,
 				BA205C94245A6D99009FD135 /* Resources */,
+				7968D2C7171722DDF98EFA7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,7 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA44D1BE245D26B900DCF225 /* goodnightbg.mp4 in Resources */,
+				BAA408D0245E203600C0AF8F /* yellowCircle.png in Resources */,
 				BA205CA9245A6D9B009FD135 /* LaunchScreen.storyboard in Resources */,
+				BA1D748F245C14930079B504 /* loginbg.mov in Resources */,
+				BA62F26D245B43EE00B803D5 /* GoogleService-Info.plist in Resources */,
+				BAA408CF245E203600C0AF8F /* lightCircle.png in Resources */,
 				BA205CA6245A6D9B009FD135 /* Assets.xcassets in Resources */,
 				BA205CA1245A6D99009FD135 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +240,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7968D2C7171722DDF98EFA7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unwind/Pods-unwind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-unwind/Pods-unwind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-unwind/Pods-unwind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE274290D20C06E004CCFF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unwind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA205C92245A6D99009FD135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFBD7F9245FB4E200B9110C /* DateHeader.swift in Sources */,
 				BA205CA4245A6D99009FD135 /* unwind.xcdatamodeld in Sources */,
 				BA205C9E245A6D99009FD135 /* ViewController.swift in Sources */,
+				BA4A62C4245BC8BE00E91868 /* NewUserViewController.swift in Sources */,
 				BA205C9A245A6D99009FD135 /* AppDelegate.swift in Sources */,
 				BA205C9C245A6D99009FD135 /* SceneDelegate.swift in Sources */,
+				BA205CB9245A7FE5009FD135 /* SignUpViewController.swift in Sources */,
+				BA205CBD245A800B009FD135 /* HomeViewController.swift in Sources */,
+				BA62F26B245B38D500B803D5 /* Utilities.swift in Sources */,
+				BA205CBB245A7FFB009FD135 /* LoginViewController.swift in Sources */,
+				BAFBD7F7245F97FF00B9110C /* DateCell.swift in Sources */,
+				BAA408CA245E098800C0AF8F /* OverTimeViewController.swift in Sources */,
+				BA4A62C6245BDF5300E91868 /* GoalsViewController.swift in Sources */,
+				BA44D1C0245D26D600DCF225 /* GoodnightViewController.swift in Sources */,
+				BA7476FC245B53A3005AB7CE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +443,7 @@
 		};
 		BA205CAE245A6D9B009FD135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC4FEF956199E1B677C26B8 /* Pods-unwind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +461,7 @@
 		};
 		BA205CAF245A6D9B009FD135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDEC0DC5096DC9DAA2120DF /* Pods-unwind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
