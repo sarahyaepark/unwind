@@ -2,6 +2,10 @@
 
 Unwind is an application made to help users create a nightly ritual to complete every night before bed. Users will input their mood for the day, and are not able to go back before the current date to edit previous dates. This app utilizes Swift and Firebase to save users' input and display it back on a calendar. We will be using Cocoapods to access Firebase and other Swift libraries.
 
+## Walk-through
+
+<img width="300px" height="650px" src="./demo/unwind_walkthrough.gif">
+
 ### Setup
 1. Fork the repo to your github
 2. Clone on your local computer
