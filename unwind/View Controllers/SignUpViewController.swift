@@ -86,12 +86,14 @@ class SignUpViewController: UIViewController {
         errorLabel.text = message
         errorLabel.alpha = 1
     }
+    
     func transitionToGoals() {
         let goalsViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.goalsViewController) as? GoalsViewController
         
         view.window?.rootViewController = goalsViewController
         view.window?.makeKeyAndVisible()
     }
+    
     @IBAction func signUpTapped(_ sender: Any) {
         
         //Validate the fields; return nil or error message
