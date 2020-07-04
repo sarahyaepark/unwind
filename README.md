@@ -4,7 +4,18 @@ Unwind is an application made to help users create a nightly ritual to complete 
 
 ## Walk-through
 
+User Sign Up
+
 <img width="300px" height="650px" src="./demo/unwind_walkthrough.gif">
+
+User can input daily self care goals
+
+<img width="300px" height="650px" src="./demo/signUp.gif">
+
+User submits a daily mood, checks off daily self care goals, and can free write
+* Once submitted, user cannot access the app's functionality again until the next day in order to encourage time away from your phone
+
+<img width="300px" height="650px" src="./demo/functionality.gif">
 
 ### Setup
 1. Fork the repo to your github
